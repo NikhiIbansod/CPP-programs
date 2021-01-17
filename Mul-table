@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{  int i,a,z;
+cout<<"Enter table no you have to want:"; //you will print any table 
+cin>>a;
+for(i=1;i<=10;i++)
+  { z=a*i;
+   cout<<z<<" ";        //Or direct cout<<a*i<<" ";
+  }
+    return 0;
+}
